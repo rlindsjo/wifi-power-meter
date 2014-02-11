@@ -1,0 +1,29 @@
+<project>
+  <parent>
+    <groupId>net.tilialacus.power-meter</groupId>
+    <artifactId>power-meter</artifactId>
+    <version>0.0.1</version> 
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>client</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.pi4j</groupId>
+      <artifactId>pi4j-core</artifactId>
+      <version>0.0.5</version>
+    </dependency>
+  </dependencies>
+  
+  <repositories>
+    <repository>
+      <id>oss-snapshots-repo</id>
+      <name>Sonatype OSS Maven Repository</name>
+      <url>https://oss.sonatype.org/content/groups/public</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+</project>
